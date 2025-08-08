@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": "1754550557611ycthlwo2hzj",
+      "email": "sohamkulkarni1340@gmail.com",
+      "password": "$2b$12$RYv0YgJGjSm0lhQH9c/AOO1Sa8Y0iWh1oX2pRQN6AcbsW5cGkGaDe",
+      "name": "sk",
+      "createdAt": "2025-08-07T07:09:17.611Z"
+    },
+    {
+      "id": "1754628553578tv4lvx6je7e",
+      "email": "demo@example.com",
+      "password": "$2b$12$o8t9lu/3Upp.CYDGFZNpVODy5Cd2L4u88kxrv1myB7NJtLyDZgmpS",
+      "name": "demo",
+      "createdAt": "2025-08-08T04:49:13.578Z"
+    }
+  ],
+  "boards": [
+    {
+      "id": "1754550612870knnhsuf5vxl",
+      "name": "Work",
+      "userId": "1754550557611ycthlwo2hzj",
+      "createdAt": "2025-08-07T07:10:12.870Z",
+      "updatedAt": "2025-08-07T07:10:12.870Z"
+    },
+    {
+      "id": "17545507372309h9izarpnj7",
+      "name": "Personal",
+      "userId": "1754550557611ycthlwo2hzj",
+      "createdAt": "2025-08-07T07:12:17.230Z",
+      "updatedAt": "2025-08-07T07:12:17.230Z"
+    },
+    {
+      "id": "1754628981571topac9g4nf",
+      "name": "Work",
+      "userId": "1754628553578tv4lvx6je7e",
+      "createdAt": "2025-08-08T04:56:21.571Z",
+      "updatedAt": "2025-08-08T04:56:21.571Z"
+    },
+    {
+      "id": "1754630279011gjjomtr3jbf",
+      "name": "Personal",
+      "userId": "1754628553578tv4lvx6je7e",
+      "createdAt": "2025-08-08T05:17:59.011Z",
+      "updatedAt": "2025-08-08T05:17:59.011Z"
+    },
+    {
+      "id": "1754630289049tzqgllkdto",
+      "name": "Groceries",
+      "userId": "1754628553578tv4lvx6je7e",
+      "createdAt": "2025-08-08T05:18:09.049Z",
+      "updatedAt": "2025-08-08T05:18:09.049Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1754631111001task001",
+      "title": "Prepare project proposal",
+      "description": "Draft and finalize the project proposal document for client review.",
+      "status": "pending",
+      "dueDate": "2025-08-10",
+      "createdAt": "2025-08-08T06:32:00.000Z",
+      "updatedAt": "2025-08-08T06:32:00.000Z",
+      "boardId": "1754628981571topac9g4nf",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 1
+    },
+    {
+      "id": "1754631112002task002",
+      "title": "Code review for API module",
+      "description": "Review pull requests for the authentication and payment modules.",
+      "status": "pending",
+      "dueDate": "2025-08-12",
+      "createdAt": "2025-08-08T06:35:00.000Z",
+      "updatedAt": "2025-08-08T06:35:00.000Z",
+      "boardId": "1754628981571topac9g4nf",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 2
+    },
+    {
+      "id": "1754631113003task003",
+      "title": "Team meeting",
+      "description": "Weekly sync-up with the development team to track progress.",
+      "status": "completed",
+      "dueDate": "2025-08-07",
+      "createdAt": "2025-08-07T09:00:00.000Z",
+      "updatedAt": "2025-08-07T10:00:00.000Z",
+      "boardId": "1754628981571topac9g4nf",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 3
+    },
+    {
+      "id": "1754631114004task004",
+      "title": "Plan weekend trip",
+      "description": "Research destinations and create an itinerary for the weekend.",
+      "status": "pending",
+      "dueDate": "2025-08-09",
+      "createdAt": "2025-08-08T06:40:00.000Z",
+      "updatedAt": "2025-08-08T06:40:00.000Z",
+      "boardId": "1754630279011gjjomtr3jbf",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 1
+    },
+    {
+      "id": "1754631115005task005",
+      "title": "Buy groceries",
+      "description": "Milk, bread, eggs, fruits, and vegetables for the week.",
+      "status": "pending",
+      "dueDate": "2025-08-08",
+      "createdAt": "2025-08-08T06:42:00.000Z",
+      "updatedAt": "2025-08-08T06:42:00.000Z",
+      "boardId": "1754630289049tzqgllkdto",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 1
+    },
+    {
+      "id": "1754631116006task006",
+      "title": "Restock pantry essentials",
+      "description": "Rice, pasta, lentils, and cooking oil.",
+      "status": "completed",
+      "dueDate": "2025-08-05",
+      "createdAt": "2025-08-05T14:00:00.000Z",
+      "updatedAt": "2025-08-06T09:00:00.000Z",
+      "boardId": "1754630289049tzqgllkdto",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 2
+    },
+    {
+      "id": "1754632779025oxrd51p45vs",
+      "title": "Interview",
+      "description": "",
+      "status": "completed",
+      "dueDate": "2025-08-13",
+      "createdAt": "2025-08-08T05:59:39.025Z",
+      "updatedAt": "2025-08-08T05:59:43.114Z",
+      "boardId": "1754628981571topac9g4nf",
+      "userId": "1754628553578tv4lvx6je7e",
+      "order": 4
+    }
+  ]
+}
