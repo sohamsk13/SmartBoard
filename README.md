@@ -2,9 +2,19 @@
 
 A modern **full-stack task management application** built with **Next.js**, allowing users to **register/login**, create multiple task boards, and manage their to-dos — all with clean UI and secure backend logic.
 
+### ‼️ Note ‼️ :
+
+The deployed URL on Vercel will only support read operations, as the application uses a local JSON file that cannot be modified in the deployment environment.
+For full functionality, including write operations, please run the app locally.
+
+Demo : https://smart-board-omega.vercel.app/
+
+---
+
 <img width="1896" height="904" alt="image" src="https://github.com/user-attachments/assets/1925727f-0da1-4dc9-9c11-570d76acd4ad" />
 
 ---
+
 
 ## 🚀 Features
 
@@ -37,14 +47,22 @@ A modern **full-stack task management application** built with **Next.js**, allo
 - Data is stored in a **JSON file** (in-memory during runtime)
 
 ### 🛠 Tech Stack
+
 Next.js – Full-stack React framework
+
 React Context API – State management
+
 Tailwind CSS – Styling
+
 Lucide Icons – Icons
+
 JWT – Authentication
 
-
 ---
+
+
+
+
 
 ## ⚙️ Installation & Setup
 
@@ -61,4 +79,6 @@ npm run dev
 
 # 4️⃣ Open in browser
 http://localhost:3000
+
+---
 
